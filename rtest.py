@@ -7,7 +7,7 @@ def check_productID(isbn):
         number = int(remainingDigits[i])
         value = i + 1
         sum += value * number
-    print(sum)
+    #print(sum)
     result = sum % 11
     #print(result)
     #print(value)
